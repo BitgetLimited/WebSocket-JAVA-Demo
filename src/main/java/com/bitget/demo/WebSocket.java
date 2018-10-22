@@ -26,10 +26,10 @@ public class WebSocket extends WebSocketClient {
     private String secretKey;
 
 
-    public static String KLINE = "kline_%s_%s";
-    public static String DEPTH = "order_book_%s";
-    public static String TRADE = "trade_history_%s";
-    public static String TICKER = "ticker_%s";
+    public static String KLINE = "kline.%s.%s";
+    public static String DEPTH = "order_book.%s";
+    public static String TRADE = "trade_history.%s";
+    public static String TICKER = "ticker.%s";
     public static String PERIOD[] = {"1min", "3min", "5min", "15min", "30min", "1hour", "4hour", "12hour", "1day", "1week", "1month"};
 
 
